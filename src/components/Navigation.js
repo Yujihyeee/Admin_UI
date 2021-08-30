@@ -6,8 +6,10 @@ const Navigation = () => (
     <>
     <Nav>
         <NavList>
-            <NavItem><Link to = '/home-page'>HomePage</Link></NavItem>
-            
+            <NavItem><Link to = '/admin-page'>AdminPage</Link></NavItem>
+            <NavItem><Link to = '/user-list'>UserList</Link></NavItem>
+            <NavItem><Link to = '/sales-management'>SalesManagement</Link></NavItem>
+            <NavItem><Link to = '/home-page-settings'>HomePageSettings</Link></NavItem>
         </NavList>
     </Nav>
     </>
@@ -17,13 +19,14 @@ export default Navigation;
 
 const Nav = styled.div`
     width: 100%;
-    height: 100px;
+    height: 0 auto;
     border-bottom: 1px soild #d1d8e4;
 
 `
+
 const NavList = styled.ul`
-    width: 1080px;
-    display: flex;
+    width: auto;
+   // display: flex;
     margin: 0 auto;
 `
 
