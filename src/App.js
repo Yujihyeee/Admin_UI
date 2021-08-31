@@ -1,7 +1,6 @@
 import React from 'react'
 import { Route, Redirect, Switch } from 'react-router-dom';
 import { AdminPage, UserList, SalesManagement, HomePageSettings } from 'pages/index';
-import { Navigation } from 'components/index';
 
 
 const App = () => (

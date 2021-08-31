@@ -20,19 +20,15 @@ export default Navigation;
 const Nav = styled.div`
     width: 100%;
     height: 0 auto;
-    border-bottom: 1px soild #d1d8e4;
-
 `
 
 const NavList = styled.ul`
     width: auto;
-   // display: flex;
-    margin: 0 auto;
+    margin: center;
 `
 
 const NavItem = styled.li`
     width: auto;
-    margin-left: 20px;
     margin-top: 30px;
     display: flex;
 `
