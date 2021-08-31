@@ -18,17 +18,17 @@ const Navigation = () => (
 export default Navigation;
 
 const Nav = styled.div`
+    text-align: center;
     width: 100%;
     height: 0 auto;
 `
 
 const NavList = styled.ul`
-    width: auto;
-    margin: center;
+    width: 100%;
+    text-align: center;
 `
 
 const NavItem = styled.li`
-    width: auto;
-    margin-top: 30px;
+    margin:30px;
     display: flex;
 `

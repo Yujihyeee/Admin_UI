@@ -44,7 +44,6 @@ const Charttr = styled.tr`
     height:100%;
     margin:auto;
     border:1px solid black;
-    
 `
 
 const Charttd = styled.td`
@@ -55,5 +54,5 @@ const Charttd = styled.td`
 const Chartdiv = styled.div`
     display:block;
     width:500px;
-    height:350px;
+    height:348px;
 `

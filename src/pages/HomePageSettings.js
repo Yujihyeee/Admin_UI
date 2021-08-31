@@ -7,7 +7,7 @@ const HomePageSettings = () => {
     <h1>Title</h1>
     <ChartTable>
         <Charttr>
-            <td rowspan="2" style={{width:'20%', border: '1px solid black'}}><Navigation/></td>
+            <td styled={{width:'20%'}}><Navigation/></td>
             <Charttd></Charttd>       
         </Charttr>
     </ChartTable>
@@ -32,7 +32,8 @@ const Charttr = styled.tr`
 `
 
 const Charttd = styled.td`
-    padding:1%;
-    width:70%;
+    padding:2%;
+    width:80%;
+    height:700px;
     border: 1px solid black;
 `
