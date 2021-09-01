@@ -19,8 +19,6 @@ export default Navigation;
 
 const Nav = styled.div`
     text-align: center;
-    width: 100%;
-    height: 0 auto;
 `
 
 const NavList = styled.ul`
@@ -29,6 +27,7 @@ const NavList = styled.ul`
 `
 
 const NavItem = styled.li`
-    margin:30px;
+    line-height:60px;
     display: flex;
+
 `

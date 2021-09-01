@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navigation } from 'components'
+import { Navigation } from 'common/index'
 import styled from 'styled-components'
 
 const HomePageSettings = () => {
@@ -7,7 +7,7 @@ const HomePageSettings = () => {
     <h1>Title</h1>
     <ChartTable>
         <Charttr>
-            <td styled={{width:'20%'}}><Navigation/></td>
+            <td style={{width:'15%', border: "1px solid black"}}><Navigation/></td>
             <Charttd></Charttd>       
         </Charttr>
     </ChartTable>
@@ -20,8 +20,6 @@ export default HomePageSettings
 const ChartTable = styled.table`
     width: 98%;
     height:700px;
-    margin:auto;
-    border: 1px solid black;
 `
 
 const Charttr = styled.tr`

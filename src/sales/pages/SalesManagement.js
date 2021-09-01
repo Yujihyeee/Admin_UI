@@ -1,15 +1,14 @@
 import React from 'react'
-import { Navigation } from 'components'
+import { Navigation } from 'common/index'
 import styled from 'styled-components'
-import {Chart1, Chart2, Chart3, Chart4} from 'components/index'
-import {ChartData, ChartData2, ChartData3, ChartData4} from 'components/index'
+import {Chart1, Chart2, Chart3, Chart4, ChartData, ChartData2, ChartData3, ChartData4} from 'analysis/index'
 
 const SalesManagement = () => {
     return(<>
     <h1>Title</h1>
     <ChartTable>
         <Charttr>
-            <td rowspan="2" style={{width:'20%', padding: '2%'}}><Navigation/></td>
+            <td rowspan="2" style={{border: "1px solid black"}}><Navigation/></td>
             <Charttd>
                 <Chartdiv><Chart4 data= {ChartData4}/></Chartdiv>
                 </Charttd>
@@ -35,8 +34,6 @@ export default SalesManagement
 const ChartTable = styled.table`
     width: 98%;
     height:700px;
-    margin:auto;
-    border: 1px solid black;
 `
 
 const Charttr = styled.tr`
@@ -48,11 +45,13 @@ const Charttr = styled.tr`
 
 const Charttd = styled.td`
     padding:1%;
+    margin:auto;
     border: 1px solid black;
 `
 
 const Chartdiv = styled.div`
     display:block;
+    margin:auto;
     width:500px;
     height:348px;
 `

@@ -1,0 +1,1 @@
+export {default as HomePageSettings} from 'admin/pages/HomePageSettings'
