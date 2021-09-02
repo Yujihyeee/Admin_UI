@@ -7,9 +7,10 @@ const Navigation = () => (
     <Nav>
         <NavList>
             <NavItem><Link to = '/admin-page'>AdminPage</Link></NavItem>
+            <NavItem><Link to = '/dash-board'>DashBoard</Link></NavItem>
             <NavItem><Link to = '/user-list'>UserList</Link></NavItem>
             <NavItem><Link to = '/sales-management'>SalesManagement</Link></NavItem>
-            <NavItem><Link to = '/home-page-settings'>HomePageSettings</Link></NavItem>
+            
         </NavList>
     </Nav>
     </>

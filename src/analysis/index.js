@@ -1,4 +1,4 @@
-export {default as AdminPage} from 'analysis/pages/AdminPage'
+export {default as DashBoard} from 'analysis/pages/DashBoard'
 export {default as Chart1} from 'analysis/components/Chart1'
 export {default as Chart2} from 'analysis/components/Chart2'
 export {default as Chart3} from 'analysis/components/Chart3'

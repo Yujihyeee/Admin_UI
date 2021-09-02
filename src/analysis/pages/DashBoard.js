@@ -3,12 +3,13 @@ import { Navigation } from 'common/index'
 import styled from 'styled-components'
 import {Chart1, Chart2, Chart3, Chart4} from 'analysis/index'
 import {ChartData, ChartData2, ChartData3, ChartData4} from 'analysis/index'
+import { Header } from 'common/index'
 
 
 
-const AdminPage = () => {
+const DashBoard = () => {
     return (<>
-    <h1>Title</h1>
+    <Header/>
     <ChartTable>
         <Charttr>
             <td rowspan="2" style={{border: "1px solid black"}}><Navigation/></td>
@@ -31,7 +32,7 @@ const AdminPage = () => {
     </>)
 }
 
-export default AdminPage
+export default DashBoard
 
 const ChartTable = styled.table`
     width: 98%;

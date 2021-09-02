@@ -1,1 +1,1 @@
-export {default as HomePageSettings} from 'admin/pages/HomePageSettings'
+export {default as AdminPage} from 'admin/pages/AdminPage'

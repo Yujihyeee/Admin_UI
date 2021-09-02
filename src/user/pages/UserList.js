@@ -1,10 +1,11 @@
 import React from 'react'
 import { Navigation } from 'common/index'
 import styled from 'styled-components'
+import { Header } from 'common/index'
 
 const UserList = () => {
     return(<>
-    <h1>Title</h1>
+    <Header/>
     <Table>
         <Tr>
             <td rowspan="2" style={{width: "15%",border: "1px solid black"}}><Navigation/></td>

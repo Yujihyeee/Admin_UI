@@ -1,20 +1,25 @@
 import React from 'react'
 import { Navigation } from 'common/index'
 import styled from 'styled-components'
+import { Header } from 'common/index'
 
-const HomePageSettings = () => {
+const AdminPage = () => {
     return(<>
-    <h1>Title</h1>
+    <Header/>
     <ChartTable>
         <Charttr>
             <td style={{width:'15%', border: "1px solid black"}}><Navigation/></td>
-            <Charttd></Charttd>       
+            <Charttd>
+                <p>ID:<input type="text" title="id"/></p>
+                <p>Password:<input type="text" title="password"/></p>
+                <p><input type="submit" value="login"/></p>
+            </Charttd>       
         </Charttr>
     </ChartTable>
     </>)
 }
 
-export default HomePageSettings
+export default AdminPage
 
 
 const ChartTable = styled.table`
