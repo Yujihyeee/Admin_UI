@@ -13,7 +13,7 @@ const AdminPage = () => {
                 <p>ID:<input type="text" title="id"/></p>
                 <p>Password:<input type="text" title="password"/></p>
                 <p><input type="submit" value="login"/></p>
-            </Charttd>       
+            </Charttd>
         </Charttr>
     </ChartTable>
     </>)

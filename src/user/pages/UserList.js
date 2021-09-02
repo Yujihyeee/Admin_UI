@@ -10,9 +10,9 @@ const UserList = () => {
         <Tr>
             <td rowspan="2" style={{width: "15%",border: "1px solid black"}}><Navigation/></td>
             <td colSpan="2" style={{border: '1px solid black'}}>
-                <p>이름:<input type="text" title="search"/></p>
-                <p>생년월일:<input type="text" title="search"/></p>
-                <p>휴대폰번호:<input type="text" title="search"/></p>
+                <label>이름:<input type="text" title="search"/></label><br/><br/>
+                <label>생년월일:<input type="text" title="search" placeholder="No Hyphen"/></label><br/><br/>
+                <label>휴대폰번호:<input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="No Hyphen"/></label>
                 <p><input type="submit" value="search"/></p>
             </td>
         </Tr>
